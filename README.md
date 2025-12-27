@@ -10,7 +10,28 @@
 - **完整購物流程**：涵蓋搜尋、加入購物車、優惠券應用、結帳與訂單追蹤。
 - **事務一致性**：使用 Entity Framework Core 交易機制確保庫存扣減與訂單建立的原子性（Atomicity）。
 - **權限控管**：區分消費者（會員）、商家（供應商）與系統管理員。
-    
+
+
+## 使用技術
+- **後端：ASP.NET Core Web API**
+
+- **前端：React / Vue.js / Blazor WebAssembly**
+
+- **ORM：Entity Framework Core**
+
+- **資料庫：MySQL / PostgreSQL**
+
+- **快取：Redis (用於購物車與熱門商品快取)**
+
+- **架構模式：**
+- **分層架構（Layered Architecture）**
+
+- **Clean Architecture (參考)**
+
+- **Repository Pattern**
+
+- **Service Pattern**
+
 ##  主要功能
 
 ### 👤 1. 會員中心 (Member)
@@ -57,7 +78,7 @@
 
 - **Order ⇄ Payment (1:N)**：訂單與支付紀錄為一對多，這設計是為了容許「付款失敗後重試」或「分批付款」的情況，每一筆嘗試都會產生一條支付紀錄。
 
-## 資料庫設計
+## 資料庫系統
 
 <img width="1449" height="904" alt="圖片" src="https://github.com/user-attachments/assets/8e4abd82-c278-43af-aad5-7e4c723bc29c" />
 
