@@ -14,3 +14,7 @@
     事務一致性：使用 Entity Framework Core 交易機制確保庫存扣減與訂單建立的原子性（Atomicity）。
 
     權限控管：區分消費者（會員）、商家（供應商）與系統管理員。
+
+
+## 系統架構圖
+<img width="1646" height="827" alt="圖片" src="https://github.com/user-attachments/assets/55326a5b-4550-42b0-bf54-dfe79d030cc2" />
