@@ -57,7 +57,7 @@
 
 - **Order ⇄ Payment (1:N)**：訂單與支付紀錄為一對多，這設計是為了容許「付款失敗後重試」或「分批付款」的情況，每一筆嘗試都會產生一條支付紀錄。
 
-##資料庫ERmodel
+## 資料庫ERmodel
 <img width="1449" height="904" alt="圖片" src="https://github.com/user-attachments/assets/8e4abd82-c278-43af-aad5-7e4c723bc29c" />
 
 🚀 未來擴充方向
