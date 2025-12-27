@@ -46,4 +46,6 @@
 ## 系統架構圖
 <img width="1646" height="827" alt="圖片" src="https://github.com/user-attachments/assets/55326a5b-4550-42b0-bf54-dfe79d030cc2" />
 
+##資料庫ERmodel
+<img width="1449" height="904" alt="圖片" src="https://github.com/user-attachments/assets/8e4abd82-c278-43af-aad5-7e4c723bc29c" />
 
