@@ -46,6 +46,17 @@
 ## 系統架構圖
 <img width="1646" height="827" alt="圖片" src="https://github.com/user-attachments/assets/55326a5b-4550-42b0-bf54-dfe79d030cc2" />
 
+🔍 關聯說明
+- **User ⇄ Cart (1:1)**：每個會員擁有一台專屬的購物車。
+
+- **Cart ⇄ Product (M:N)**：透過 CartItem 關聯表，記錄購物車內有哪些商品及其數量。
+ 
+- **Product ⇄ Inventory (1:1)**：將商品資訊（價格、描述）與庫存數量（變動頻繁）分開，避免鎖表競爭，也方便管理預警值。
+
+- **Order ⇄ OrderItem (1:N)**：一張訂單包含多項商品明細。OrderItem 通常會記錄「下單時的價格 (UnitPrice)」，防止未來商品漲價影響歷史訂單金額。
+
+- **Order ⇄ Payment (1:N)**：訂單與支付紀錄為一對多，這設計是為了容許「付款失敗後重試」或「分批付款」的情況，每一筆嘗試都會產生一條支付紀錄。
+
 ##資料庫ERmodel
 <img width="1449" height="904" alt="圖片" src="https://github.com/user-attachments/assets/8e4abd82-c278-43af-aad5-7e4c723bc29c" />
 
