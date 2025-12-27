@@ -49,3 +49,13 @@
 ##資料庫ERmodel
 <img width="1449" height="904" alt="圖片" src="https://github.com/user-attachments/assets/8e4abd82-c278-43af-aad5-7e4c723bc29c" />
 
+🚀 未來擴充方向
+
+
+🔐 強化資安與身分驗證機制
+
+- 導入 OAuth 2.0 或 OpenID Connect
+
+- 支援第三方登入（Google、Facebook 等）
+
+- 增加雙因素驗證（2FA）以提升帳號安全性
