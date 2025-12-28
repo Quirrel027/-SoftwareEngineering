@@ -116,7 +116,8 @@
 ### 三、詳細設計說明書（Detailed Design, DSD）
 ## 資料庫系統
 
-<img width="2112" height="960" alt="圖片" src="https://github.com/user-attachments/assets/729e9fd8-886e-45f1-b042-a367b948b0fb" />
+<img width="2101" height="1024" alt="圖片" src="https://github.com/user-attachments/assets/cd98b4e7-f8b6-40f7-b1c2-ba38e6f59a15" />
+
 
 - **1. 主要資料表設計（簡述）**
   
