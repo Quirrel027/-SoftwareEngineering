@@ -98,7 +98,8 @@
     使用者請求 → Controller → Service → Repository → Database
     
 ## 系統架構圖
-<img width="2112" height="960" alt="圖片" src="https://github.com/user-attachments/assets/031898fd-06b4-4547-9147-24d3c57194c4" />
+<img width="1646" height="827" alt="圖片" src="https://github.com/user-attachments/assets/c70c1766-65f3-4585-b569-5e723d678b79" />
+
 
 
 🔍 關聯說明
@@ -115,7 +116,8 @@
 ### 三、詳細設計說明書（Detailed Design, DSD）
 ## 資料庫系統
 
-<img width="1449" height="904" alt="圖片" src="https://github.com/user-attachments/assets/8e4abd82-c278-43af-aad5-7e4c723bc29c" />
+<img width="2112" height="960" alt="圖片" src="https://github.com/user-attachments/assets/729e9fd8-886e-45f1-b042-a367b948b0fb" />
+
 
 
 ## 安全性與效能優化 (Security & Performance)
