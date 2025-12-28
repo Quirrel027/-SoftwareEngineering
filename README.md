@@ -118,7 +118,74 @@
 
 <img width="2112" height="960" alt="圖片" src="https://github.com/user-attachments/assets/729e9fd8-886e-45f1-b042-a367b948b0fb" />
 
+- **1. 主要資料表設計（簡述）**
+	User
+	
+		UserId (PK)
+		
+		Email
+		
+		PasswordHash
+		
+		Role
+	
+	Product
+	
+		ProductId (PK)
+		
+		Name
+		
+		Price
+		
+		CategoryId
+	
+	Inventory
+	
+		ProductId (PK, FK)
+		
+		StockQty
+	
+	Order
+	
+		OrderId (PK)
+		
+		UserId (FK)
+		
+		TotalAmount
+		
+		Status
+	
+	OrderItem
+	
+		OrderItemId (PK)
+		
+		OrderId (FK)
+		
+		ProductId (FK)
+		
+		UnitPrice
+		
+		Quantity
 
+- **2. 核心流程設計（下單）**
+
+	驗證使用者身份
+	
+	檢查購物車內容
+	
+	開啟 Transaction
+	
+	扣減庫存
+	
+	建立訂單與訂單明細
+	
+	提交交易
+
+- **3. 交易與一致性**
+
+	使用 EF Core Transaction
+	
+	防止髒讀 / 重複下單
 
 ## 安全性與效能優化 (Security & Performance)
 **1. 安全性 (Security)**
