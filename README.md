@@ -98,7 +98,8 @@
     使用者請求 → Controller → Service → Repository → Database
     
 ## 系統架構圖
-<img width="1646" height="827" alt="圖片" src="https://github.com/user-attachments/assets/55326a5b-4550-42b0-bf54-dfe79d030cc2" />
+<img width="2112" height="960" alt="圖片" src="https://github.com/user-attachments/assets/031898fd-06b4-4547-9147-24d3c57194c4" />
+
 
 🔍 關聯說明
 - **User ⇄ Cart (1:1)**：每個會員擁有一台專屬的購物車。
